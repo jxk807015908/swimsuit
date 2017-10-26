@@ -1,0 +1,96 @@
+body,div,ul,li,a,p,span,img{margin: 0;padding: 0;}
+img{border: none;}
+li{list-style: none}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+a,p,span,li,pre{font-size: 12px;color: #353535;}
+.sprite{background: url(../images/sprite.png) no-repeat;}
+
+body{background: url(../images/bodybg.png) repeat-x;overflow:scroll;overflow-x:hidden;}
+.yy{width: 1100px;margin: 0 auto;position: relative;}
+.yy .top{background: url(../images/topbg.png) no-repeat;height: 36px;line-height: 36px;}
+.yy .top .sy{margin-left: 8px;}
+.yy .top .nh{margin-left:15px;}
+.yy .top ul{position: absolute;top:0px;right: 36px;}
+.yy .top ul li{float: right;margin-left: 31px;position: relative;}
+.yy .top ul li .sj{width: 14px;height: 12px;float: right;margin-top: 12px;}
+.yy .top ul li .subnav{position: absolute;top:36px;z-index: 1;display: none;border: 1px solid #d8d8d8;width: 100px;text-align: center;left: -15px;}
+.yy .top ul li .current{position: absolute;top:36px;z-index: 1;}
+.yy .top ul li .subnav a{display: block;height: 20px;line-height:20px;background: #f5f5f5;}
+
+.yy .logo{position: relative;}
+.yy .logo .consult{position: absolute;width: 15px;height: 15px;top:60px;left:819px;}
+.yy .logo .info{position: absolute;width: 409px;height: 248px;top:91px;left: 428px;border: 1px solid #9c999a;background:#fff;display: none;}
+.yy .logo .info .up{height: 108px;background: #efefef;}
+.yy .logo .info  .topP{float: left;margin:20px 0 0 20px;}
+.yy .logo .info  .notopP{clear: both;line-height: 27px;margin-left: 20px;float: left;}
+.yy .logo .info .up  img{float: left;margin-top: 3px;}
+.yy .logo .info p span{color: #777777;}
+.yy .logo .info .up .vip{background-position: -14px 0;width: 19px;height: 9px;float: left;margin-top: 26px;margin-left: 14px;}
+.yy .logo .info .up .ren{background-position: -33px 0;width: 19px;height: 17px;float: left;margin-top: 22px;margin-left: 7px;}
+.yy .logo .info .up .golden{background-position: -52px 0;width: 14px;height: 17px;float: left;margin-top: 22px;margin-left: 6px;}
+.yy .logo .info .down{position: relative;}
+.yy .logo .info .down .star1{float: left;background-position: -66px 0;width: 14px;height: 14px;margin-top: 20px;}
+.yy .logo .info .down .star2{float: left;background-position: -80px 0;width: 14px;height: 14px;margin-top: 20px;}
+.yy .logo .info .down img{position: absolute;top:10px;left: 276px;}
+.yy .logo .info .down .collection{clear: both;height: 30px;width: 100px;background: #c40001;margin-left: 20px;float: left;margin-top: 10px;}
+.yy .logo .info .down .collection .star3{margin-right:2px;background-position: 0 -12px;;width: 16px;height: 15px;margin-left: 17px;margin-top: 7px;float: left;}
+.yy .logo .info .down .collection a{float: left;color: #fff;font-size: 12px;line-height: 30px;}
+.yy .logo .info .down .num{margin-left: 10px;float: left;margin-top: 15px;}
+
+.yy .menu{}
+.yy .menu ul{}
+.yy .menu ul li{float: left;width: 100px;height: 35px;line-height: 35px;text-align: center;margin-left: 6px;}
+.yy .menu ul li:hover{background: #2f2f2f;}
+.yy .menu ul li a{color: #fff;display: block;width: 100px;height: 35px;line-height: 35px;}
+.yy .menu ul li a:hover{background: #2f2f2f;}
+
+.yy .show{margin-left: -400px;}
+
+.yy .recommend{text-align: center;padding-left: 11px;padding-right: 11px;position: relative;height: 681px;overflow: hidden;}
+.yy .recommend .rec{font-size: 29px;border-bottom: 1px dashed #aeaeae;height: 58px;line-height: 58px;color: #000;}
+.yy .recommend ul{margin-top: 16px;}
+.yy .recommend ul li{float: left;margin-right: 14px;}
+.yy .recommend ul .last{margin-right: 0px;}
+.yy .recommend ul li img{}
+.yy .recommend ul li p{font-size: 13px;color: #a08e9a;height: 30px;line-height: 30px;}
+.yy .recommend ul li a{margin-left:70px;color: #fff;display: block;width: 70px;height: 22px;background: #9d445a;line-height: 22px;}
+.yy .recommend #lb{clear: both;position: relative;}
+.yy .recommend #lb .list{position: relative;}
+.yy .recommend #lb .list li{position: absolute;top:45px;opacity: 0;filter:alpha(opacity=0);}
+.yy .recommend #lb .list .current{opacity: 1;filter:alpha(opacity=1);}
+.yy .recommend #lb .count{position: absolute;top:270px;left: 297px;}
+.yy .recommend #lb .count li{float: left;width: 14px;height: 14px;border:1px solid #fff; margin-right: 10px;}
+.yy .recommend #lb .count .current{background: #ff5400;border: none;width: 15px;height: 15px;}
+.yy .recommend .company{border-left: 1px dashed #d5d5d5;clear: both;position: absolute;top:379px;left:517px;text-align: left;padding-left: 75px;}
+.yy .recommend .company strong{font-size: 14px;}
+.yy .recommend .company .plant{position: absolute;width: 70px;height: 34px;background-position: 0 -27px;top:-6px;;left:146px;; }
+.yy .recommend .company p{text-indent: 2em;line-height:21px;margin-top: 17px;color: #666666;}
+.yy .recommend .company p a{color: #9d445a;}
+.yy .recommend .company .search{margin-top: 15px;overflow: hidden;}
+.yy .recommend .company .search input{width: 188px;height: 24px;float: left;}
+.yy .recommend .company .search button{width: 28px;height: 28px;float: left;border: none;background: #9d445a;color: #fff;}
+.yy .recommend .company pre{color: #346182;}
+
+.yy .newgoods{height: 822px;text-align: center;background: #e4e4e4;padding-top: 28px;}
+.yy .newgoods .fashion{font-size: 29px;font-weight: bold;height: 44px;border-bottom: 1px dashed #8a8a8a;display: block;width:220px; margin-left: 439px;}
+.yy .newgoods ul{margin-top: 36px;}
+.yy .newgoods ul li{background: #e0ebf1;width: 269px;overflow: hidden;padding-bottom: 7px;margin-left: 4px;float: left;margin-top: 8px;}
+.yy .newgoods ul li .cost{float: left;text-align: left;margin: 10px 5px;}
+.yy .newgoods ul li p{font-size: 12px;color: #60859d;font-weight: normal;height: 20px;}
+.yy .newgoods ul li p span{color: #a6687a;}
+.yy .newgoods ul li a{margin-top:5px;color: #fff;display: block;width: 40px;height: 40px;background: #ae5068;font-size: 15px;letter-spacing:3px;padding: 4px 4px;float: right;margin-right: 7px;}
+
+.yy .bottompic{margin-top: 34px;}
+.yy .bottom{margin-top: 20px;}
+.yy .bottom img{margin-top: 39px;float: left;}
+.yy .bottom .bottom_menu{margin-top: 20px;float: left;}
+.yy .bottom .bottom_menu li{margin-left: 102px;float: left;}
+.yy .bottom .bottom_menu li h1{font-size: 15px;font-weight: normal;}
+.yy .bottom .bottom_menu li a{display: block;color: #70716c;height: 25px;}
+.yy .bottom .link{clear: both}
+.yy .bottom .link p{margin-left: 46px;padding-bottom: 17px;}
+.yy .bottom .link span{float: right;padding-left: 8px;padding-right: 168px;}
+.yy .bottom .link a{float: right;padding-left: 8px;padding-right: 8px;border-right: 1px solid #000000;display:inline-block;margin-bottom:15px;}
+
+
